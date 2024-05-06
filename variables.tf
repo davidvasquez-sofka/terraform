@@ -28,3 +28,12 @@ variable "sg_ingress_cidr" {
   description = "CIDR for ingress traffic"
   type        = string
 }
+
+
+variable "acces_key" {
+  
+}
+
+variable "secret_key" {
+  
+}

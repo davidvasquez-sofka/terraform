@@ -13,5 +13,8 @@ provider "aws" {
   default_tags {
     tags = var.tags
   }
+  access_key =  var.acces_key
+  secret_key = var.secret_key
 }
+
 
