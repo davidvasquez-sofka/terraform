@@ -76,10 +76,10 @@ resource "aws_security_group" "sg_public_instance" {
   }
 }
 
- module "myBucket" {
-   source      = "./modulos/s3"
-   bucket_name = "soyunicoydetergente"
- }
+module "myBucket" {
+  source      = "./modulos/s3"
+  bucket_name = "soyunicoydetergente"
+}
 
 
 # module "terraform_state_backend" {
